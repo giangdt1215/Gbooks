@@ -1,0 +1,78 @@
+/* NEWS Detail PAGE**************************************************/
+.news-detail-wrap{
+    margin: 50px 0;
+}
+.news-detail-wrap .new-books{
+    padding: 10px 20px;
+    border: 1px solid #dfdfdf;
+    margin-bottom: 30px;
+}
+
+.new-books .new-books-title{
+    margin-bottom: 8px;
+}
+.new-books .new-books-title h1{
+    font-size: 18px;
+    line-height: 30px;
+}
+.new-books .title-line{
+    background: #cf111a;
+    width: 100px;
+    height: 4px;
+    margin-bottom: 14px;
+}
+
+.new-books .list-new-books ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.new-books .list-new-books ul li{
+    margin-bottom: 12px;
+}
+.new-books .new-books-item{
+    display: flex;
+    padding: 2px 0;
+}
+.new-books-item a{
+    display: flex;
+}
+.new-books-item a:hover .book-title{
+    color: #cf111a;
+}
+.new-books .new-books-item img{
+    width: 35%;
+    height: auto;
+}
+.new-books-item .new-books-des{
+    margin-top: 2px;
+    padding-left: 5px;
+}
+.new-books-item .new-books-des .price{
+    color: #cf111a;
+    font-weight: bold;
+}
+.news-detail img{
+    display: block;
+    width: 85%;
+    margin: auto;
+}
+.news-detail .news-calendar{
+    font-size: 12px;
+    color: #b3b3b3;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.news-detail h1.news-title{
+    font-size: 24px;
+    font-style: italic;
+}
+.news-detail p{
+    font-size: 14px;
+    color: #63636a;
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+/*End NEWS Detail PAGE***********************************************/

@@ -1,0 +1,25 @@
+/*xl*/
+@media all and (max-width: 1200px){
+
+}
+
+/*lg*/
+@media all and (max-width: 992px){
+	.header-right{
+		margin-top: 10px;
+	}
+}
+
+/*md*/
+@media all and (max-width: 768px){
+	.header-right{
+		margin-top: 10px;
+	}
+}
+
+/*sm*/
+@media all and (max-width: 576px){
+	.header-right{
+		margin-top: 10px;
+	}
+}

@@ -1,0 +1,169 @@
+/* BOOK Detail PAGE**************************************************/
+.book-detail-wrap{
+    margin: 50px 0;
+}
+.book-slider-wrap{
+    margin-bottom: 20px;
+}
+.book-slider-wrap .slider-main{
+    width: 100%;
+    height: 420px;
+    margin-bottom: 20px;
+}
+.book-slider-wrap .slider-main a{
+    display: block;
+    text-align: center;
+}
+.book-slider-wrap .slider-main .img-main{
+    height: 420px;
+}
+.slider-nav .slider-nav-img{
+    width: 78px;
+    text-align: center;
+    border: 1px solid #f2f2f2;
+    cursor: pointer;
+}
+.slider-nav .nav-active{
+    border: 1px solid #f5a623;
+}
+.slider-nav .slider-nav-img .img-nav{
+    width: 78px;
+    height: 78px;
+}
+.book-intro h1.book-name{
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 400;
+}
+.book-intro .line{
+    border-bottom: 1px solid #f2f2f2;
+    margin-bottom: 15px;
+}
+.book-intro .book-price{
+    margin-bottom: 15px;
+}
+.book-intro .book-price span.price{
+    color: #ff0000;
+    font-size: 28px;
+    line-height: 28px;
+    font-weight: 700;
+}
+.book-intro .book-gift{
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #f5a623;
+    background: rgba(245,166,35,.1);
+    margin-bottom: 15px;
+}
+.book-intro .book-gift ul{
+    list-style: none;
+    margin: 0;
+}
+.book-intro .book-gift ul li{
+    padding-left: 15px;
+    margin-bottom: 5px;
+}
+.book-intro .book-gift ul li:before{
+    content: '\2022';
+    width: 1em;
+    margin-left: -1em;
+    margin-right: 0.5em;
+    font-weight: bold;
+    color: #f5a623;
+}
+.book-intro .book-gift li span{
+    text-align: left;
+}
+.book-intro .book-btn label{
+    font-weight: bold;
+}
+.book-intro .book-number{
+    width: 150px;
+    height: 40px;
+    display: inline-block;
+    position: relative;
+    margin-left: 5px;
+}
+.book-intro .book-number .button{
+    display: inline-block;
+    position: absolute;
+    top: 0;
+}
+.book-intro .book-number .minus{
+    left: 0;
+    overflow: hidden;
+}
+.book-intro .book-number .plus{
+    right: 0;
+    overflow: hidden;
+}
+.book-intro .book-number .btn{
+    padding: 0;
+    width: 40px;
+    line-height: 40px;
+    color: #282828;
+    font-size: 12px;
+    border: none;
+    border-radius: 0;
+    background: transparent;
+}
+.book-intro .book-number .input-number{
+    border: 1px solid #eceded;
+    width: 100%;
+    text-align: center;
+    line-height: 40px;
+    overflow: hidden;
+    padding: 0 45px;
+}
+.book-intro .book-btn .btn-buy{
+    display: block;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 40px;
+    color: white;
+    font-weight: bold;
+    background: #F7941D;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 100%;
+}
+.book-intro .book-btn .btn-buy:hover{
+    background: #cf111a;
+}
+
+.book-intro .book-info{
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+.book-intro .book-info ul{
+    list-style: none;
+}
+.book-intro .book-info ul li{
+    margin-bottom: 7px;
+}
+.book-intro .book-info ul li a{
+    color: #f5a623;
+}
+.book-description{
+    margin: 30px 0;
+    padding: 0 20px;
+}
+.book-description .book-des-title{
+    margin-bottom: 10px;
+}
+.book-description .book-des-title h1{
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.book-description .line{
+    height: 4px;
+    width: 100px;
+    background: #cf111a;
+    margin-bottom: 20px;
+}
+.book-description .description{
+    text-align: justify;
+}
+/*End BOOK Detail PAGE***********************************************/

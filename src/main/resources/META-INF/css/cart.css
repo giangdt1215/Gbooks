@@ -1,0 +1,145 @@
+/* CART PAGE**************************************************/
+.cart-wrap{
+    margin: 50px 0;
+}
+.cart-wrap h1.no-items-cart{
+	text-align: center;
+    font-size: 24px;
+    color: #CF111A;
+}
+.cart-table thead{
+    background: #cf111a;
+    color: white;
+    line-height: 48px;
+}
+.cart-table thead tr{
+    padding: 0 50px;;
+}
+.cart-table thead tr th{
+    border: none;
+    font-size: 16px;
+    text-align: center;
+}
+.cart-table thead#thaccount tr th{
+	font-size: 14px;
+}
+.cart-table tbody tr{
+    border-bottom: 1px solid #F7941D;
+    margin-top: 20px;
+}
+.cart-table tbody td{
+	text-align: center;
+    vertical-align: middle;
+    border-top: 1px solid #eee;
+    padding: 20px 10px;
+}
+.cart-table tbody td#name{
+	max-width: 350px;
+	text-align: left;
+}
+.cart-table tbody td img{
+    min-width: 100px;
+    height: 100px;
+    max-width: 100%;
+}
+.cart-table tbody .product-name{
+	width:410px;
+}
+.cart-table tbody .product-name a{
+    color: #282828;
+    font-size: 16px;
+    font-weight: 600;
+}
+.cart-table tbody .product-name a:hover{
+    color: #cf111a;
+}
+.cart-table tbody .price{
+    text-align: center;
+}
+.cart-table tbody .qty-input{
+    width: 175px;
+    height: 50px;
+    display: inline-block;
+    position: relative;
+}
+.cart-table tbody .qty-input .button{
+    display: inline-block;
+    position: absolute;
+    top: 0;
+}
+.cart-table tbody .qty-input .minus{
+    overflow: hidden;
+    left: 0;
+}
+.cart-table tbody .qty-input .plus{
+    overflow: hidden;
+    right: 0;
+}
+.cart-table tbody .qty-input .btn{
+    padding: 0;
+    width: 44px;
+    line-height: 50px;
+    border-radius: 0;
+    color: #282828;
+    border: none;
+    font-size: 12px;
+    background: transparent;
+}
+.cart-table tbody .qty-input .input-number{
+    border: 1px solid #eceded;
+    width: 100%;
+    text-align: center;
+    line-height: 50px;
+    overflow: hidden;
+    padding: 0 45px;
+}
+
+.cart-table tbody .total-amount{
+    text-align: center;
+}
+.cart-table tbody .del{
+    text-align: center;
+}
+.cart-table tbody .del a:hover{
+    color: #cf111a;
+}
+
+.cart-pay{
+    margin-top: 50px;
+}
+.cart-pay .right{
+    padding-left: 100px;
+}
+.cart-pay ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.cart-pay ul li{
+    font-size: 15px;
+    margin-bottom: 12px;
+}
+.cart-pay ul li span{
+    float: right;
+}
+.cart-pay ul li.last{
+    padding-top: 12px;
+    border-top: 1px solid #c8c8c8;
+}
+.cart-pay ul li.last span{
+    color: #cf111a;
+    font-weight: bold;
+}
+.cart-pay .right .btn{
+    text-align: center;
+    border-radius: 0;
+    width: 100%;
+    margin-top: 10px;
+    line-height: 35px;
+    color: white;
+    background: #F7941D;
+}
+.cart-pay .right .btn:hover{
+    background: #cf111a;
+}
+/*End CART PAGE***********************************************/

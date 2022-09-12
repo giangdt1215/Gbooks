@@ -1,0 +1,61 @@
+body{
+    background: white;
+}
+.navbar-inverse{
+    background: #cf111a;
+    border-color: #cf111a;
+}
+
+.navbar-inverse .navbar-brand{
+    color: white;
+}
+.navbar-inverse .navbar-brand:hover{
+    color: #f5a623;
+}
+
+.navbar-inverse .navbar-nav>li>a{
+    color: white;
+}
+.navbar-inverse .navbar-nav>li>a:hover{
+    color: #f5a623;
+}
+
+.navbar-top-links>li>a:hover{
+    background: #f5a623;
+}
+
+.navbar-top-links>li>a{
+    color: white;
+}
+
+.navbar-top-links>li>a:hover, 
+.navbar-top-links>li>a:focus,
+.navbar-top-links>.open>a, 
+.navbar-top-links>.open>a:hover,
+.navbar-top-links>.open>a:focus{
+    background: #f5a623;
+}
+
+#page-wrapper .row .add-button{
+    margin-bottom: 15px;
+}
+#page-wrapper .row .btn-danger{
+    margin-left: 10px;
+}
+
+.sidebar-nav ul.nav{
+	background: #f8f8f8;
+}
+
+.editModal .modal-dialog{
+    width: 70%;
+}
+
+span.required-input{
+    color: red;
+}
+
+.col-lg-12 form{
+	margin-bottom: 15px;
+}
+        
